@@ -1,4 +1,4 @@
-# React TypeScript Boilerplate
+# 🌐 React X TypeScript Boilerplate
 
 React X TypeScript boilerplate using Babel, Sass with a hot dev server and a production build.
 
