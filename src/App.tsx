@@ -1,9 +1,16 @@
-import React from 'react';
+import React, { FC } from 'react';
+import { Route } from 'react-router-dom';
+import { HomePage, AboutPage } from './pages';
 
 import './styles/index.scss';
 
-const App: React.FC = () => {
-  return <div>This is React App</div>;
+const App: FC = () => {
+  return (
+    <div>
+      <Route exact path="/" component={HomePage} />
+      <Route path="/about" component={AboutPage} />
+    </div>
+  );
 };
 
 export default App;
