@@ -1,9 +1,12 @@
 import React, { FC } from 'react';
-
-import './style.scss';
+import { Layout, Title } from '../../components';
 
 const HomePage: FC = () => {
-  return <div className="home-page">This is Home Page</div>;
+  return (
+    <Layout>
+      <Title text="Home" />
+    </Layout>
+  );
 };
 
 export default HomePage;

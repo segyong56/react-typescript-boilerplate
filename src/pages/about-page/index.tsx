@@ -1,9 +1,12 @@
 import React, { FC } from 'react';
-
-import './style.scss';
+import { Layout, Title } from '../../components';
 
 const AboutPage: FC = () => {
-  return <div className="about-page">This is About Page</div>;
+  return (
+    <Layout>
+      <Title text="About" />
+    </Layout>
+  );
 };
 
 export default AboutPage;
