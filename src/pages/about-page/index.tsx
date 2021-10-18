@@ -1,12 +1,8 @@
 import React, { FC } from 'react';
-import { Layout, Title } from '../../components';
+import { Layout } from '../../components';
 
 const AboutPage: FC = () => {
-  return (
-    <Layout>
-      <Title text="About" />
-    </Layout>
-  );
+  return <Layout>This is About Page.</Layout>;
 };
 
 export default AboutPage;
