@@ -1,0 +1,16 @@
+.navbar {
+  width: 100%;
+  text-align: center;
+  margin: 30px;
+  font-size: 18px;
+
+  &__link {
+    color: black;
+    font-weight: 700;
+
+    &--active,
+    &:hover {
+      color: darkgreen;
+    }
+  }
+}
