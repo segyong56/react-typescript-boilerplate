@@ -6,10 +6,10 @@ import './styles/index.scss';
 
 const App: FC = () => {
   return (
-    <div>
+    <>
       <Route exact path="/" component={HomePage} />
       <Route path="/about" component={AboutPage} />
-    </div>
+    </>
   );
 };
 
